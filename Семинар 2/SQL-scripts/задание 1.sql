@@ -13,4 +13,4 @@ insert into sales (order_date, count_product) values ('2022-01-01',156),
 ('2022-01-04',124),
 ('2022-01-05',341);
 
-select * from sales s ;
+select * from sales;
