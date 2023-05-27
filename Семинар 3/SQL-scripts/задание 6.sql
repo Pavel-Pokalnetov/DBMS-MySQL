@@ -1,11 +1,14 @@
 select post
 From edu_l3.staff
 group by post
-having avg(age)<30;
+having avg(age)<40;
 
 
-/* результат пуст, т.к. нет таких специальностей
+/* результат с 30 пуст, т.к. нет таких специальностей
 у которых средний возраст сотрудников меньше 30
+
+поставил 40
+
 
 select post as "Должность", avg(age) as "Средний возраст"
 From edu_l3.staff
