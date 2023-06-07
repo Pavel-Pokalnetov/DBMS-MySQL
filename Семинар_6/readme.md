@@ -1,6 +1,6 @@
 1. Создайте таблицу users_old, аналогичную таблице users. Создайте процедуру,  с помощью которой можно переместить любого (одного) пользователя из таблицы users в таблицу users_old. (использование транзакции с выбором commit или rollback – обязательно).  
   
-  решение: 
+  решение:  
 	1.1 создание таблицы: https://github.com/Pavel-Pokalnetov/DBMS-MySQL/blob/main/Семинар_6/SQLScripts/задание_1.1.sql  
 	1.2 создание процедуры переноса пользователя: https://github.com/Pavel-Pokalnetov/DBMS-MySQL/blob/main/Семинар_6/SQLScripts/задание_1.2.sql  
 	1.3 пример выполнения с результатом (выполнено в консоли): https://github.com/Pavel-Pokalnetov/DBMS-MySQL/blob/main/Семинар_6/SQLScripts/задание_1.3.txt  
